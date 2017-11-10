@@ -56,12 +56,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-/**
- * Generated class for the MenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 var MenuPage = (function () {
     function MenuPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
@@ -77,7 +71,7 @@ var MenuPage = (function () {
         this.navCtrl.push('SettingPage');
     };
     MenuPage.prototype.goReport = function () {
-        alert('Đang đợi tinh năng này!');
+        // alert('Đang đợi tinh năng này!');
     };
     MenuPage.prototype.goOrder = function () {
         this.navCtrl.parent.select(1);
