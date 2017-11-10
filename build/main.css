@@ -1,5 +1,5 @@
 .bg-mxv-trans, .mxv-header {
-  background-image: url("../assets/imgs/mxv-bg-header.png");
+  background-image: url("/assets/imgs/mxv-bg-header.png");
   background-size: 100%;
 }
 
@@ -47516,7 +47516,7 @@ page-list-contract ion-content ion-grid.mxv-tb-stripe ion-icon {
 }
 
 page-login .login-content {
-  background-image: url("../assets/imgs/bg-login.png");
+  background-image: url("/assets/imgs/bg-login.png");
   background-size: 101%;
 }
 
