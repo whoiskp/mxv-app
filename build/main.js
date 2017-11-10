@@ -30,11 +30,11 @@ var map = {
 		15
 	],
 	"../pages/home/list-contract/list-contract.module": [
-		268,
+		269,
 		14
 	],
 	"../pages/login/login.module": [
-		269,
+		268,
 		13
 	],
 	"../pages/menu/change-pass/change-pass.module": [
@@ -290,8 +290,8 @@ AppModule = __decorate([
                 links: [
                     { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/home/list-buy-sell/list-buy-sell.module#ListBuySellPageModule', name: 'ListBuySellPage', segment: 'list-buy-sell', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/home/list-contract/list-contract.module#ListContractPageModule', name: 'ListContractPage', segment: 'list-contract', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/home/list-contract/list-contract.module#ListContractPageModule', name: 'ListContractPage', segment: 'list-contract', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/menu/change-pass/change-pass.module#ChangePassPageModule', name: 'ChangePassPage', segment: 'change-pass', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/menu/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
